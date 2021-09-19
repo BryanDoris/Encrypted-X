@@ -1,0 +1,696 @@
+
+local EncryptedXScriptHubWindow = Instance.new("ScreenGui")
+local TopMainDragger = Instance.new("ImageLabel")
+local DownImage = Instance.new("ImageLabel")
+local HideAndShowTEXT = Instance.new("TextLabel")
+local MainBackground = Instance.new("ImageLabel")
+local TabBackground = Instance.new("ImageLabel")
+local InfinityYieldButton = Instance.new("TextButton")
+local InfinityYieldFrame = Instance.new("Frame")
+local UIGridLayout = Instance.new("UIGridLayout")
+local CMDXButton = Instance.new("TextButton")
+local CMDXFrame = Instance.new("Frame")
+local DarkDexButton = Instance.new("TextButton")
+local CMDXFrame_2 = Instance.new("Frame")
+local SnowHubButton = Instance.new("TextButton")
+local CMDXFrame_3 = Instance.new("Frame")
+local OwlHub = Instance.new("TextButton")
+local CMDXFrame_4 = Instance.new("Frame")
+local DarkHub = Instance.new("TextButton")
+local CMDXFrame_5 = Instance.new("Frame")
+local ImageBackground = Instance.new("ImageLabel")
+local LogoButton = Instance.new("ImageButton")
+local NofiticationCopyiedLink = Instance.new("Frame")
+local desc1 = Instance.new("TextLabel")
+local BackgroundOKButton = Instance.new("ImageLabel")
+local OKButton = Instance.new("TextButton")
+local DescriptionBackground = Instance.new("ImageLabel")
+local InfinityYieldDescription = Instance.new("TextLabel")
+local CMDXDescription = Instance.new("TextLabel")
+local DarkDexDescription = Instance.new("TextLabel")
+local SnowHubDescription = Instance.new("TextLabel")
+local OwlHubDescription = Instance.new("TextLabel")
+local DarkHubDescription = Instance.new("TextLabel")
+local ExecuteButton = Instance.new("TextButton")
+local ScriptHubopTEXT = Instance.new("TextLabel")
+local CloseImageButton = Instance.new("ImageButton")
+
+--Properties:
+
+EncryptedXScriptHubWindow.Name = "EncryptedXScriptHubWindow"
+EncryptedXScriptHubWindow.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+EncryptedXScriptHubWindow.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+TopMainDragger.Name = "TopMainDragger"
+TopMainDragger.Parent = EncryptedXScriptHubWindow
+TopMainDragger.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TopMainDragger.Position = UDim2.new(0.335853815, 0, 0.141104281, 0)
+TopMainDragger.Size = UDim2.new(0, 520, 0, 30)
+TopMainDragger.Image = "rbxassetid://7504184082"
+
+DownImage.Name = "DownImage"
+DownImage.Parent = TopMainDragger
+DownImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DownImage.Position = UDim2.new(0, 0, 18.6666679, 0)
+DownImage.Size = UDim2.new(0, 520, 0, 25)
+DownImage.Image = "rbxassetid://7504439494"
+
+HideAndShowTEXT.Name = "HideAndShowTEXT"
+HideAndShowTEXT.Parent = DownImage
+HideAndShowTEXT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HideAndShowTEXT.BackgroundTransparency = 1.000
+HideAndShowTEXT.BorderSizePixel = 0
+HideAndShowTEXT.Position = UDim2.new(0.371153831, 0, -22.3199997, 0)
+HideAndShowTEXT.Size = UDim2.new(0, 295, 0, 25)
+HideAndShowTEXT.Font = Enum.Font.SourceSans
+HideAndShowTEXT.Text = "Press Insert To Hide And Show UI"
+HideAndShowTEXT.TextColor3 = Color3.fromRGB(255, 255, 255)
+HideAndShowTEXT.TextSize = 15.000
+
+MainBackground.Name = "MainBackground"
+MainBackground.Parent = TopMainDragger
+MainBackground.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainBackground.Position = UDim2.new(0, 0, 1, 0)
+MainBackground.Size = UDim2.new(0, 520, 0, 530)
+MainBackground.Image = "rbxassetid://7504448127"
+
+TabBackground.Name = "TabBackground"
+TabBackground.Parent = MainBackground
+TabBackground.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TabBackground.BorderSizePixel = 0
+TabBackground.Position = UDim2.new(0, 10, 0, 3)
+TabBackground.Size = UDim2.new(0, 175, 0, 520)
+TabBackground.Image = "rbxassetid://7504505333"
+
+InfinityYieldButton.Name = "InfinityYieldButton"
+InfinityYieldButton.Parent = TabBackground
+InfinityYieldButton.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+InfinityYieldButton.BorderSizePixel = 0
+InfinityYieldButton.Size = UDim2.new(0, 175, 0, 25)
+InfinityYieldButton.Font = Enum.Font.SourceSans
+InfinityYieldButton.Text = "Infinity Yield"
+InfinityYieldButton.TextColor3 = Color3.fromRGB(225, 225, 225)
+InfinityYieldButton.TextSize = 14.000
+
+InfinityYieldFrame.Name = "InfinityYieldFrame"
+InfinityYieldFrame.Parent = InfinityYieldButton
+InfinityYieldFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+InfinityYieldFrame.BorderSizePixel = 0
+InfinityYieldFrame.Position = UDim2.new(0.354285717, 0, 0.920000017, 0)
+InfinityYieldFrame.Size = UDim2.new(0, 50, 0, 2)
+
+UIGridLayout.Parent = TabBackground
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellSize = UDim2.new(0, 175, 0, 25)
+
+CMDXButton.Name = "CMDXButton"
+CMDXButton.Parent = TabBackground
+CMDXButton.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+CMDXButton.BorderSizePixel = 0
+CMDXButton.Size = UDim2.new(0, 175, 0, 25)
+CMDXButton.Font = Enum.Font.SourceSans
+CMDXButton.Text = "CMD-X"
+CMDXButton.TextColor3 = Color3.fromRGB(225, 225, 225)
+CMDXButton.TextSize = 14.000
+
+CMDXFrame.Name = "CMDXFrame"
+CMDXFrame.Parent = CMDXButton
+CMDXFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+CMDXFrame.BorderSizePixel = 0
+CMDXFrame.Position = UDim2.new(0.354285717, 0, 0.920000017, 0)
+CMDXFrame.Size = UDim2.new(0, 50, 0, 2)
+
+DarkDexButton.Name = "DarkDexButton"
+DarkDexButton.Parent = TabBackground
+DarkDexButton.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+DarkDexButton.BorderSizePixel = 0
+DarkDexButton.Size = UDim2.new(0, 175, 0, 25)
+DarkDexButton.Font = Enum.Font.SourceSans
+DarkDexButton.Text = "Dark Dex"
+DarkDexButton.TextColor3 = Color3.fromRGB(225, 225, 225)
+DarkDexButton.TextSize = 14.000
+
+CMDXFrame_2.Name = "CMDXFrame"
+CMDXFrame_2.Parent = DarkDexButton
+CMDXFrame_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+CMDXFrame_2.BorderSizePixel = 0
+CMDXFrame_2.Position = UDim2.new(0.354285717, 0, 0.920000017, 0)
+CMDXFrame_2.Size = UDim2.new(0, 50, 0, 2)
+
+SnowHubButton.Name = "SnowHubButton"
+SnowHubButton.Parent = TabBackground
+SnowHubButton.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+SnowHubButton.BorderSizePixel = 0
+SnowHubButton.Size = UDim2.new(0, 175, 0, 25)
+SnowHubButton.Font = Enum.Font.SourceSans
+SnowHubButton.Text = "Snow Hub"
+SnowHubButton.TextColor3 = Color3.fromRGB(225, 225, 225)
+SnowHubButton.TextSize = 14.000
+
+CMDXFrame_3.Name = "CMDXFrame"
+CMDXFrame_3.Parent = SnowHubButton
+CMDXFrame_3.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+CMDXFrame_3.BorderSizePixel = 0
+CMDXFrame_3.Position = UDim2.new(0.354285717, 0, 0.920000017, 0)
+CMDXFrame_3.Size = UDim2.new(0, 50, 0, 2)
+
+OwlHub.Name = "OwlHub"
+OwlHub.Parent = TabBackground
+OwlHub.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+OwlHub.BorderSizePixel = 0
+OwlHub.Size = UDim2.new(0, 175, 0, 25)
+OwlHub.Font = Enum.Font.SourceSans
+OwlHub.Text = "Owl Hub"
+OwlHub.TextColor3 = Color3.fromRGB(225, 225, 225)
+OwlHub.TextSize = 14.000
+
+CMDXFrame_4.Name = "CMDXFrame"
+CMDXFrame_4.Parent = OwlHub
+CMDXFrame_4.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+CMDXFrame_4.BorderSizePixel = 0
+CMDXFrame_4.Position = UDim2.new(0.354285717, 0, 0.920000017, 0)
+CMDXFrame_4.Size = UDim2.new(0, 50, 0, 2)
+
+DarkHub.Name = "Dark Hub"
+DarkHub.Parent = TabBackground
+DarkHub.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+DarkHub.BorderSizePixel = 0
+DarkHub.Size = UDim2.new(0, 175, 0, 25)
+DarkHub.Font = Enum.Font.SourceSans
+DarkHub.Text = "Dark Hub"
+DarkHub.TextColor3 = Color3.fromRGB(225, 225, 225)
+DarkHub.TextSize = 14.000
+
+CMDXFrame_5.Name = "CMDXFrame"
+CMDXFrame_5.Parent = DarkHub
+CMDXFrame_5.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+CMDXFrame_5.BorderSizePixel = 0
+CMDXFrame_5.Position = UDim2.new(0.354285717, 0, 0.920000017, 0)
+CMDXFrame_5.Size = UDim2.new(0, 50, 0, 2)
+
+ImageBackground.Name = "ImageBackground"
+ImageBackground.Parent = MainBackground
+ImageBackground.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageBackground.BorderSizePixel = 0
+ImageBackground.Position = UDim2.new(0, 193, 0, 3)
+ImageBackground.Size = UDim2.new(0, 320, 0, 300)
+ImageBackground.Image = "rbxassetid://7504505333"
+
+LogoButton.Name = "LogoButton"
+LogoButton.Parent = ImageBackground
+LogoButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LogoButton.Size = UDim2.new(0, 320, 0, 300)
+LogoButton.Image = "rbxassetid://7496974530"
+
+NofiticationCopyiedLink.Name = "NofiticationCopyiedLink"
+NofiticationCopyiedLink.Parent = LogoButton
+NofiticationCopyiedLink.BackgroundColor3 = Color3.fromRGB(1, 1, 1)
+NofiticationCopyiedLink.BackgroundTransparency = 1.000
+NofiticationCopyiedLink.BorderSizePixel = 0
+NofiticationCopyiedLink.Size = UDim2.new(0, 320, 0, 300)
+NofiticationCopyiedLink.Visible = false
+
+desc1.Name = "desc1"
+desc1.Parent = NofiticationCopyiedLink
+desc1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+desc1.BackgroundTransparency = 1.000
+desc1.BorderSizePixel = 0
+desc1.Position = UDim2.new(0.1875, 0, 0.266666681, 0)
+desc1.Size = UDim2.new(0, 200, 0, 20)
+desc1.Font = Enum.Font.SourceSans
+desc1.Text = "Copy Link To Our Discord ?"
+desc1.TextColor3 = Color3.fromRGB(225, 225, 225)
+desc1.TextSize = 20.000
+
+BackgroundOKButton.Name = "BackgroundOKButton"
+BackgroundOKButton.Parent = NofiticationCopyiedLink
+BackgroundOKButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BackgroundOKButton.BackgroundTransparency = 1.000
+BackgroundOKButton.BorderColor3 = Color3.fromRGB(80, 89, 255)
+BackgroundOKButton.BorderSizePixel = 0
+BackgroundOKButton.Position = UDim2.new(0.34375, 0, 0.439999998, 0)
+BackgroundOKButton.Size = UDim2.new(0, 100, 0, 25)
+BackgroundOKButton.Image = "rbxassetid://7505052454"
+
+OKButton.Name = "OKButton"
+OKButton.Parent = BackgroundOKButton
+OKButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OKButton.BackgroundTransparency = 1.000
+OKButton.BorderSizePixel = 0
+OKButton.Size = UDim2.new(0, 100, 0, 25)
+OKButton.Font = Enum.Font.SourceSans
+OKButton.Text = "OK"
+OKButton.TextColor3 = Color3.fromRGB(225, 225, 225)
+OKButton.TextSize = 20.000
+
+DescriptionBackground.Name = "DescriptionBackground"
+DescriptionBackground.Parent = MainBackground
+DescriptionBackground.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DescriptionBackground.BorderSizePixel = 0
+DescriptionBackground.Position = UDim2.new(0, 193, 0, 310)
+DescriptionBackground.Size = UDim2.new(0, 320, 0, 175)
+DescriptionBackground.Image = "rbxassetid://7504505333"
+
+InfinityYieldDescription.Name = "InfinityYieldDescription"
+InfinityYieldDescription.Parent = DescriptionBackground
+InfinityYieldDescription.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfinityYieldDescription.BackgroundTransparency = 1.000
+InfinityYieldDescription.BorderSizePixel = 0
+InfinityYieldDescription.Size = UDim2.new(0, 320, 0, 175)
+InfinityYieldDescription.Visible = false
+InfinityYieldDescription.Font = Enum.Font.SourceSans
+InfinityYieldDescription.Text = "Infinity Yield - One of the best admin script work on free exploits."
+InfinityYieldDescription.TextColor3 = Color3.fromRGB(180, 180, 180)
+InfinityYieldDescription.TextSize = 16.000
+InfinityYieldDescription.TextStrokeColor3 = Color3.fromRGB(20, 20, 20)
+InfinityYieldDescription.TextStrokeTransparency = 0.000
+InfinityYieldDescription.TextWrapped = true
+InfinityYieldDescription.TextXAlignment = Enum.TextXAlignment.Left
+InfinityYieldDescription.TextYAlignment = Enum.TextYAlignment.Top
+
+CMDXDescription.Name = "CMDXDescription"
+CMDXDescription.Parent = DescriptionBackground
+CMDXDescription.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CMDXDescription.BackgroundTransparency = 1.000
+CMDXDescription.BorderSizePixel = 0
+CMDXDescription.Position = UDim2.new(0.00312507153, 0, 0, 0)
+CMDXDescription.Size = UDim2.new(0, 320, 0, 175)
+CMDXDescription.Visible = false
+CMDXDescription.Font = Enum.Font.SourceSans
+CMDXDescription.Text = "CMD-X - One of the best FE Admin commands and this script is Free Exploit Friendly."
+CMDXDescription.TextColor3 = Color3.fromRGB(180, 180, 180)
+CMDXDescription.TextSize = 16.000
+CMDXDescription.TextStrokeColor3 = Color3.fromRGB(20, 20, 20)
+CMDXDescription.TextStrokeTransparency = 0.000
+CMDXDescription.TextWrapped = true
+CMDXDescription.TextXAlignment = Enum.TextXAlignment.Left
+CMDXDescription.TextYAlignment = Enum.TextYAlignment.Top
+
+DarkDexDescription.Name = "DarkDexDescription"
+DarkDexDescription.Parent = DescriptionBackground
+DarkDexDescription.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DarkDexDescription.BackgroundTransparency = 1.000
+DarkDexDescription.BorderSizePixel = 0
+DarkDexDescription.Position = UDim2.new(0.00312507153, 0, 0, 0)
+DarkDexDescription.Size = UDim2.new(0, 320, 0, 175)
+DarkDexDescription.Visible = false
+DarkDexDescription.Font = Enum.Font.SourceSans
+DarkDexDescription.Text = "Dark Dex - A powerful game explorer GUI. Shows every instance of the game and all their properties. Useful for developers."
+DarkDexDescription.TextColor3 = Color3.fromRGB(180, 180, 180)
+DarkDexDescription.TextSize = 16.000
+DarkDexDescription.TextStrokeColor3 = Color3.fromRGB(20, 20, 20)
+DarkDexDescription.TextStrokeTransparency = 0.000
+DarkDexDescription.TextWrapped = true
+DarkDexDescription.TextXAlignment = Enum.TextXAlignment.Left
+DarkDexDescription.TextYAlignment = Enum.TextYAlignment.Top
+
+SnowHubDescription.Name = "SnowHubDescription"
+SnowHubDescription.Parent = DescriptionBackground
+SnowHubDescription.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SnowHubDescription.BackgroundTransparency = 1.000
+SnowHubDescription.BorderSizePixel = 0
+SnowHubDescription.Position = UDim2.new(0.00312507153, 0, 0, 0)
+SnowHubDescription.Size = UDim2.new(0, 320, 0, 175)
+SnowHubDescription.Visible = false
+SnowHubDescription.Font = Enum.Font.SourceSans
+SnowHubDescription.Text = "Snow Hub - One of the best script for Arsenal with a lot of features."
+SnowHubDescription.TextColor3 = Color3.fromRGB(180, 180, 180)
+SnowHubDescription.TextSize = 16.000
+SnowHubDescription.TextStrokeColor3 = Color3.fromRGB(20, 20, 20)
+SnowHubDescription.TextStrokeTransparency = 0.000
+SnowHubDescription.TextWrapped = true
+SnowHubDescription.TextXAlignment = Enum.TextXAlignment.Left
+SnowHubDescription.TextYAlignment = Enum.TextYAlignment.Top
+
+OwlHubDescription.Name = "OwlHubDescription"
+OwlHubDescription.Parent = DescriptionBackground
+OwlHubDescription.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OwlHubDescription.BackgroundTransparency = 1.000
+OwlHubDescription.BorderSizePixel = 0
+OwlHubDescription.Position = UDim2.new(0.00312507153, 0, 0, 0)
+OwlHubDescription.Size = UDim2.new(0, 320, 0, 175)
+OwlHubDescription.Visible = false
+OwlHubDescription.Font = Enum.Font.SourceSans
+OwlHubDescription.Text = "Owl Hub - One of the best Uiversal FPS Game script hub."
+OwlHubDescription.TextColor3 = Color3.fromRGB(180, 180, 180)
+OwlHubDescription.TextSize = 16.000
+OwlHubDescription.TextStrokeColor3 = Color3.fromRGB(20, 20, 20)
+OwlHubDescription.TextStrokeTransparency = 0.000
+OwlHubDescription.TextWrapped = true
+OwlHubDescription.TextXAlignment = Enum.TextXAlignment.Left
+OwlHubDescription.TextYAlignment = Enum.TextYAlignment.Top
+
+DarkHubDescription.Name = "DarkHubDescription"
+DarkHubDescription.Parent = DescriptionBackground
+DarkHubDescription.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DarkHubDescription.BackgroundTransparency = 1.000
+DarkHubDescription.BorderSizePixel = 0
+DarkHubDescription.Position = UDim2.new(0.00312507153, 0, 0, 0)
+DarkHubDescription.Size = UDim2.new(0, 320, 0, 175)
+DarkHubDescription.Visible = false
+DarkHubDescription.Font = Enum.Font.SourceSans
+DarkHubDescription.Text = "Dark Hub - A Script Hub That Supported Multi \"FPS\" Games."
+DarkHubDescription.TextColor3 = Color3.fromRGB(180, 180, 180)
+DarkHubDescription.TextSize = 16.000
+DarkHubDescription.TextStrokeColor3 = Color3.fromRGB(20, 20, 20)
+DarkHubDescription.TextStrokeTransparency = 0.000
+DarkHubDescription.TextWrapped = true
+DarkHubDescription.TextXAlignment = Enum.TextXAlignment.Left
+DarkHubDescription.TextYAlignment = Enum.TextYAlignment.Top
+
+ExecuteButton.Name = "ExecuteButton"
+ExecuteButton.Parent = MainBackground
+ExecuteButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+ExecuteButton.BorderColor3 = Color3.fromRGB(80, 80, 80)
+ExecuteButton.Position = UDim2.new(0.371153831, 0, 0.930188656, 0)
+ExecuteButton.Size = UDim2.new(0, 320, 0, 30)
+ExecuteButton.Font = Enum.Font.SourceSans
+ExecuteButton.Text = "Execute"
+ExecuteButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ExecuteButton.TextSize = 16.000
+ExecuteButton.MouseButton1Click:Connect(function()
+	if DarkDexDescription.Visible == true then
+		loadstring(game:GetObjects("rbxassetid://418957341")[1].Source)()
+	elseif DarkHubDescription.Visible == true then
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init'), true))()
+	elseif OwlHubDescription.Visible == true then
+		loadstring(game:HttpGet(('https://paste.ee/r/T8uDW'), true))()
+	elseif SnowHubDescription.Visible == true then
+		loadstring(game:HttpGet(('https://snowhub.dev/script.lua'), true))()
+	elseif InfinityYieldDescription.Visible == true then
+		loadstring(game:HttpGet(('https://infyield.yolasite.com/resources/IY_FE.txt'), true))()
+	elseif CMDXDescription.Visible == true then
+		loadstring(game:HttpGet(('https://pastebin.com/raw/EEBcbzt9'), true))()
+	end
+end)
+
+ScriptHubopTEXT.Name = "ScriptHubopTEXT"
+ScriptHubopTEXT.Parent = TopMainDragger
+ScriptHubopTEXT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptHubopTEXT.BackgroundTransparency = 1.000
+ScriptHubopTEXT.BorderSizePixel = 0
+ScriptHubopTEXT.Position = UDim2.new(0.0192307699, 0, 0.13333334, 0)
+ScriptHubopTEXT.Size = UDim2.new(0, 175, 0, 20)
+ScriptHubopTEXT.Font = Enum.Font.SourceSans
+ScriptHubopTEXT.Text = "Encrypted X - Script Hub"
+ScriptHubopTEXT.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptHubopTEXT.TextSize = 16.000
+
+CloseImageButton.Name = "CloseImageButton"
+CloseImageButton.Parent = TopMainDragger
+CloseImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseImageButton.BorderSizePixel = 0
+CloseImageButton.Position = UDim2.new(0.949999988, 0, 0, 3)
+CloseImageButton.Size = UDim2.new(0, 20, 0, 20)
+CloseImageButton.Image = "rbxassetid://7504483650"
+
+-- Scripts:
+
+local function ZLIF_fake_script() -- InfinityYieldFrame.TabButtonScript 
+	local script = Instance.new('LocalScript', InfinityYieldFrame)
+
+	script.Parent.Parent.MouseButton1Click:Connect(function()
+		for i, frame in pairs(script.Parent.Parent.Parent:GetDescendants()) do
+			if frame:IsA("Frame") and frame.BackgroundColor3 == Color3.fromRGB(61, 149, 236) then
+				frame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+			end
+		end
+		script.Parent.BackgroundColor3 = Color3.fromRGB(61, 149, 236)
+		for i, desc in pairs(script.Parent.Parent.Parent.Parent.DescriptionBackground:GetChildren()) do
+			if desc:IsA("TextLabel") and desc.Visible == true then
+				desc.Visible = false
+			end
+		end
+		script.Parent.Parent.Parent.Parent.DescriptionBackground.InfinityYieldDescription.Visible = true
+	end)
+end
+coroutine.wrap(ZLIF_fake_script)()
+local function BNNYNS_fake_script() -- CMDXFrame.TabButtonScript 
+	local script = Instance.new('LocalScript', CMDXFrame)
+
+	script.Parent.Parent.MouseButton1Click:Connect(function()
+		for i, frame in pairs(script.Parent.Parent.Parent:GetDescendants()) do
+			if frame:IsA("Frame") and frame.BackgroundColor3 == Color3.fromRGB(61, 149, 236) then
+				frame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+			end
+		end
+		script.Parent.BackgroundColor3 = Color3.fromRGB(61, 149, 236)
+		for i, desc in pairs(script.Parent.Parent.Parent.Parent.DescriptionBackground:GetChildren()) do
+			if desc:IsA("TextLabel") and desc.Visible == true then
+				desc.Visible = false
+			end
+		end
+		script.Parent.Parent.Parent.Parent.DescriptionBackground.CMDXDescription.Visible = true
+	end)
+end
+coroutine.wrap(BNNYNS_fake_script)()
+local function LXBK_fake_script() -- CMDXFrame_2.TabButtonScript 
+	local script = Instance.new('LocalScript', CMDXFrame_2)
+
+	script.Parent.Parent.MouseButton1Click:Connect(function()
+		for i, frame in pairs(script.Parent.Parent.Parent:GetDescendants()) do
+			if frame:IsA("Frame") and frame.BackgroundColor3 == Color3.fromRGB(61, 149, 236) then
+				frame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+			end
+		end
+		script.Parent.BackgroundColor3 = Color3.fromRGB(61, 149, 236)
+		for i, desc in pairs(script.Parent.Parent.Parent.Parent.DescriptionBackground:GetChildren()) do
+			if desc:IsA("TextLabel") and desc.Visible == true then
+				desc.Visible = false
+			end
+		end
+		script.Parent.Parent.Parent.Parent.DescriptionBackground.DarkDexDescription.Visible = true
+	end)
+end
+coroutine.wrap(LXBK_fake_script)()
+local function EDOQ_fake_script() -- CMDXFrame_3.TabButtonScript 
+	local script = Instance.new('LocalScript', CMDXFrame_3)
+
+	script.Parent.Parent.MouseButton1Click:Connect(function()
+		for i, frame in pairs(script.Parent.Parent.Parent:GetDescendants()) do
+			if frame:IsA("Frame") and frame.BackgroundColor3 == Color3.fromRGB(61, 149, 236) then
+				frame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+			end
+		end
+		script.Parent.BackgroundColor3 = Color3.fromRGB(61, 149, 236)
+		for i, desc in pairs(script.Parent.Parent.Parent.Parent.DescriptionBackground:GetChildren()) do
+			if desc:IsA("TextLabel") and desc.Visible == true then
+				desc.Visible = false
+			end
+		end
+		script.Parent.Parent.Parent.Parent.DescriptionBackground.SnowHubDescription.Visible = true
+	end)
+end
+coroutine.wrap(EDOQ_fake_script)()
+local function UWLDA_fake_script() -- CMDXFrame_4.TabButtonScript 
+	local script = Instance.new('LocalScript', CMDXFrame_4)
+
+	script.Parent.Parent.MouseButton1Click:Connect(function()
+		for i, frame in pairs(script.Parent.Parent.Parent:GetDescendants()) do
+			if frame:IsA("Frame") and frame.BackgroundColor3 == Color3.fromRGB(61, 149, 236) then
+				frame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+			end
+		end
+		script.Parent.BackgroundColor3 = Color3.fromRGB(61, 149, 236)
+		for i, desc in pairs(script.Parent.Parent.Parent.Parent.DescriptionBackground:GetChildren()) do
+			if desc:IsA("TextLabel") and desc.Visible == true then
+				desc.Visible = false
+			end
+		end
+		script.Parent.Parent.Parent.Parent.DescriptionBackground.OwlHubDescription.Visible = true
+	end)
+end
+coroutine.wrap(UWLDA_fake_script)()
+local function YDEXOL_fake_script() -- CMDXFrame_5.TabButtonScript 
+	local script = Instance.new('LocalScript', CMDXFrame_5)
+
+	script.Parent.Parent.MouseButton1Click:Connect(function()
+		for i, frame in pairs(script.Parent.Parent.Parent:GetDescendants()) do
+			if frame:IsA("Frame") and frame.BackgroundColor3 == Color3.fromRGB(61, 149, 236) then
+				frame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+			end
+		end
+		script.Parent.BackgroundColor3 = Color3.fromRGB(61, 149, 236)
+		for i, desc in pairs(script.Parent.Parent.Parent.Parent.DescriptionBackground:GetChildren()) do
+			if desc:IsA("TextLabel") and desc.Visible == true then
+				desc.Visible = false
+			end
+		end
+		script.Parent.Parent.Parent.Parent.DescriptionBackground.DarkHubDescription.Visible = true
+	end)
+end
+coroutine.wrap(YDEXOL_fake_script)()
+local function GZMQPYP_fake_script() -- LogoButton.LogoButtonScript 
+	local script = Instance.new('LocalScript', LogoButton)
+
+	local okbutton = script.Parent.NofiticationCopyiedLink.BackgroundOKButton
+	local desc1 = script.Parent.NofiticationCopyiedLink.desc1
+	local nofitication = script.Parent.NofiticationCopyiedLink
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.NofiticationCopyiedLink.Visible = true
+		okbutton.ImageTransparency = 1
+		desc1.TextTransparency = 1
+		wait(0.03)
+		nofitication.BackgroundTransparency = 0.9
+		okbutton.ImageTransparency = 0.9
+		desc1.TextTransparency = 0.9
+		wait(0.03)
+		nofitication.BackgroundTransparency = 0.8
+		okbutton.ImageTransparency = 0.8
+		desc1.TextTransparency = 0.8
+		wait(0.03)
+		nofitication.BackgroundTransparency = 0.7
+		okbutton.ImageTransparency = 0.7
+		desc1.TextTransparency = 0.7
+		wait(0.03)
+		nofitication.BackgroundTransparency = 0.6
+		okbutton.ImageTransparency = 0.6
+		desc1.TextTransparency = 0.6
+		wait(0.03)
+		nofitication.BackgroundTransparency = 0.5
+		okbutton.ImageTransparency = 0.5
+		desc1.TextTransparency = 0.5
+		wait(0.03)
+		nofitication.BackgroundTransparency = 0.4
+		okbutton.ImageTransparency = 0.4
+		desc1.TextTransparency = 0.4
+		wait(0.03)
+		nofitication.BackgroundTransparency = 0.3
+		okbutton.ImageTransparency = 0.3
+		desc1.TextTransparency = 0.3
+		wait(0.03)
+		nofitication.BackgroundTransparency = 0.2
+		okbutton.ImageTransparency = 0.2
+		desc1.TextTransparency = 0.2
+		wait(0.03)
+		okbutton.ImageTransparency = 0.1
+		desc1.TextTransparency = 0.1
+		wait(0.03)
+		okbutton.ImageTransparency = 0.000
+		desc1.TextTransparency = 0.000
+		wait(0.03)
+	end)
+end
+coroutine.wrap(GZMQPYP_fake_script)()
+local function TAXU_fake_script() -- OKButton.CopyOKButtonScript 
+	local script = Instance.new('LocalScript', OKButton)
+
+	local okbutton = script.Parent.Parent
+	local desc1 = script.Parent.Parent.Parent.desc1
+	local nofitication = script.Parent.Parent.Parent
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.desc1.Text = "COPIED LINK!"
+		wait(1)
+		script.Parent.Parent.Parent.desc1.Text = "Copy Link To Our Discord ?"
+		wait(0.1)
+		nofitication.BackgroundTransparency = 0.0
+		okbutton.ImageTransparency = 0.0
+		desc1.TextTransparency = 0.0
+		wait(0.03)
+		nofitication.BackgroundTransparency = 0.1
+		okbutton.ImageTransparency = 0.1
+		desc1.TextTransparency = 0.1
+		wait(0.03)
+		nofitication.BackgroundTransparency = 0.2
+		okbutton.ImageTransparency = 0.2
+		desc1.TextTransparency = 0.2
+		wait(0.03)
+		nofitication.BackgroundTransparency = 0.3
+		okbutton.ImageTransparency = 0.3
+		desc1.TextTransparency = 0.3
+		wait(0.03)
+		nofitication.BackgroundTransparency = 0.4
+		okbutton.ImageTransparency = 0.4
+		desc1.TextTransparency = 0.4
+		wait(0.03)
+		nofitication.BackgroundTransparency = 0.5
+		okbutton.ImageTransparency = 0.5
+		desc1.TextTransparency = 0.5
+		wait(0.03)
+		nofitication.BackgroundTransparency = 0.6
+		okbutton.ImageTransparency = 0.6
+		desc1.TextTransparency = 0.6
+		wait(0.03)
+		nofitication.BackgroundTransparency = 0.7
+		okbutton.ImageTransparency = 0.7
+		desc1.TextTransparency = 0.7
+		wait(0.03)
+		okbutton.ImageTransparency = 0.8
+		desc1.TextTransparency = 0.8
+		wait(0.03)
+		okbutton.ImageTransparency = 0.9
+		desc1.TextTransparency = 0.9
+		wait(0.03)
+		nofitication.Visible = false
+		setclipboard("https://encryptedscripts.surge.sh/Discord.html")
+	end)
+end
+coroutine.wrap(TAXU_fake_script)()
+local function TCNT_fake_script() -- CloseImageButton.CloseScript 
+	local script = Instance.new('LocalScript', CloseImageButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(TCNT_fake_script)()
+local function SJTF_fake_script() -- TopMainDragger.DragScript 
+	local script = Instance.new('LocalScript', TopMainDragger)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(SJTF_fake_script)()
+local function TYECBY_fake_script() -- EncryptedXScriptHubWindow.ToggleUIScript 
+	local script = Instance.new('LocalScript', EncryptedXScriptHubWindow)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	UserInputService.InputBegan:Connect(function(input, gameProcessed)
+		if input.KeyCode == Enum.KeyCode.Insert then
+			if script.Parent.Enabled == true then
+				script.Parent.Enabled = false
+			elseif script.Parent.Enabled == false then
+				script.Parent.Enabled = true
+			end
+		end
+	end)
+end
+coroutine.wrap(TYECBY_fake_script)()

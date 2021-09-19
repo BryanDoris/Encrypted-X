@@ -1,0 +1,179 @@
+local blurEc = Instance.new("BlurEffect",game.Lighting)
+blurEc.Size = 20
+
+local EncryptedXWindow = Instance.new("ScreenGui")
+local Logo = Instance.new("ImageLabel")
+local UICorner = Instance.new("UICorner")
+local EncryptedXText = Instance.new("ImageLabel")
+
+--Properties:
+
+EncryptedXWindow.Name = "EncryptedXWindow"
+EncryptedXWindow.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+EncryptedXWindow.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+EncryptedXWindow.ResetOnSpawn = false
+EncryptedXWindow.IgnoreGuiInset = true
+
+Logo.Name = "Logo"
+Logo.Parent = EncryptedXWindow
+Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Logo.Position = UDim2.new(0.405166984, 0, 0.215417102, 0)
+Logo.Size = UDim2.new(0.189035922, 0, 0.342782646, 0)
+Logo.Image = "rbxassetid://7496974530"
+Logo.BackgroundTransparency = 1.000
+
+UICorner.CornerRadius = UDim.new(0, 10000)
+UICorner.Parent = Logo
+
+EncryptedXText.Name = "EncryptedXText"
+EncryptedXText.Parent = EncryptedXWindow
+EncryptedXText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EncryptedXText.BackgroundTransparency = 1.000
+EncryptedXText.BorderSizePixel = 0
+EncryptedXText.Position = UDim2.new(0.247637048, 0, 0.377914101, 0)
+EncryptedXText.Size = UDim2.new(0.504095793, 0, 0.490797549, 0)
+EncryptedXText.Image = "rbxassetid://7497023146"
+
+Logo.Position = UDim2.new(0.405166984, 0, 1, 0)
+EncryptedXText.Position = UDim2.new(0.247637048, 0, 1, 0)
+
+wait(1.5)
+
+Logo:TweenPosition(UDim2.new(0.405166984, 0, 0.204907969, 0),"InOut","Quad",1,true)
+
+wait(1)
+
+Logo.ImageTransparency = 0.1
+wait(0.03)
+Logo.ImageTransparency = 0.2
+wait(0.03)
+Logo.ImageTransparency = 0.3
+wait(0.03)
+Logo.ImageTransparency = 0.4
+wait(0.03)
+Logo.ImageTransparency = 0.5
+wait(0.03)
+Logo.ImageTransparency = 0.6
+wait(0.03)
+Logo.ImageTransparency = 0.7
+wait(0.03)
+Logo.ImageTransparency = 0.8
+wait(0.03)
+Logo.ImageTransparency = 0.9
+wait(0.03)
+Logo.ImageTransparency = 1
+wait(0.03)
+Logo.ImageTransparency = 0.9
+wait(0.03)
+Logo.ImageTransparency = 0.8
+wait(0.03)
+Logo.ImageTransparency = 0.7
+wait(0.03)
+Logo.ImageTransparency = 0.6
+wait(0.03)
+Logo.ImageTransparency = 0.5
+wait(0.03)
+Logo.ImageTransparency = 0.4
+wait(0.03)
+Logo.ImageTransparency = 0.3
+wait(0.03)
+Logo.ImageTransparency = 0.2
+wait(0.03)
+Logo.ImageTransparency = 0.1
+wait(0.03)
+Logo.ImageTransparency = 0
+wait(0.03)
+
+wait(0.5)
+
+EncryptedXText:TweenPosition(UDim2.new(0.247637048, 0, 0.377914101, 0),"InOut","Quad",1,true)
+
+wait(1)
+
+EncryptedXText.ImageTransparency = 0.1
+wait(0.03)
+EncryptedXText.ImageTransparency = 0.2
+wait(0.03)
+EncryptedXText.ImageTransparency = 0.3
+wait(0.03)
+EncryptedXText.ImageTransparency = 0.4
+wait(0.03)
+EncryptedXText.ImageTransparency = 0.5
+wait(0.03)
+EncryptedXText.ImageTransparency = 0.6
+wait(0.03)
+EncryptedXText.ImageTransparency = 0.7
+wait(0.03)
+EncryptedXText.ImageTransparency = 0.8
+wait(0.03)
+EncryptedXText.ImageTransparency = 0.9
+wait(0.03)
+EncryptedXText.ImageTransparency = 1
+wait(0.03)
+EncryptedXText.ImageTransparency = 0.9
+wait(0.03)
+EncryptedXText.ImageTransparency = 0.8
+wait(0.03)
+EncryptedXText.ImageTransparency = 0.7
+wait(0.03)
+EncryptedXText.ImageTransparency = 0.6
+wait(0.03)
+EncryptedXText.ImageTransparency = 0.5
+wait(0.03)
+EncryptedXText.ImageTransparency = 0.4
+wait(0.03)
+EncryptedXText.ImageTransparency = 0.3
+wait(0.03)
+EncryptedXText.ImageTransparency = 0.2
+wait(0.03)
+EncryptedXText.ImageTransparency = 0.1
+wait(0.03)
+EncryptedXText.ImageTransparency = 0
+wait(0.03)
+
+wait(2)
+
+EncryptedXText:TweenPosition(UDim2.new(0.247637048, 0, 1, 0),"InOut","Quad",1,true)
+wait(1.5)
+Logo:TweenPosition(UDim2.new(0.405166984, 0, 1, 0),"InOut","Quad",1,true)
+wait(0.5)
+Logo.ImageTransparency = 0.1
+wait(0.03)
+Logo.ImageTransparency = 0.2
+wait(0.03)
+Logo.ImageTransparency = 0.3
+wait(0.03)
+Logo.ImageTransparency = 0.4
+wait(0.03)
+Logo.ImageTransparency = 0.5
+wait(0.03)
+Logo.ImageTransparency = 0.6
+wait(0.03)
+Logo.ImageTransparency = 0.7
+wait(0.03)
+Logo.ImageTransparency = 0.8
+wait(0.03)
+Logo.ImageTransparency = 0.9
+wait(0.03)
+Logo.ImageTransparency = 1
+
+
+
+wait(1)
+
+blurEc:Destroy()
+EncryptedXWindow:Destroy()
+
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Encrypted X";
+	Text = "Loaded";
+	Duration = "5";
+	Icon = "rbxassetid://7496974530"
+})
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Encrypted X";
+	Text = "Thank You For Using Encrypted X";
+	Duration = "5";
+	Icon = "rbxassetid://7496974530"
+})

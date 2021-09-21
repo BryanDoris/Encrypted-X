@@ -1,4 +1,3 @@
-
 local EncryptedXScriptHubWindow = Instance.new("ScreenGui")
 local TopMainDragger = Instance.new("ImageLabel")
 local DownImage = Instance.new("ImageLabel")
@@ -40,6 +39,7 @@ local CloseImageButton = Instance.new("ImageButton")
 EncryptedXScriptHubWindow.Name = "EncryptedXScriptHubWindow"
 EncryptedXScriptHubWindow.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 EncryptedXScriptHubWindow.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+EncryptedXScriptHubWindow.ResetOnSpawn = false
 
 TopMainDragger.Name = "TopMainDragger"
 TopMainDragger.Parent = EncryptedXScriptHubWindow
